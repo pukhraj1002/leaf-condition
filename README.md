@@ -32,7 +32,11 @@ Teachable Machine: Pre-trained image classification model.
 ## Model
 This project uses a model hosted on Teachable Machine for classifying leaf conditions.
 
-**Link to the model** 
+**Link of the model** 
 ```
 https://teachablemachine.withgoogle.com/models/vz589Memb/
+```
+**Link of dataset used to train the model** 
+```
+https://www.kaggle.com/datasets/rashikrahmanpritom/plant-disease-recognition-dataset
 ```
