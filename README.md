@@ -3,8 +3,11 @@ A web application for classifying the condition of a leaf using Teachable Machin
 
 ## Features
 Image Upload: Upload a leaf image for condition analysis.
+
 TensorFlow.js Model: Uses a pre-trained model from Teachable Machine.
+
 Responsive UI: Simple, user-friendly interface with webcam and image upload options.
+
 Prediction Display: Provides predictions with probabilities for each class.
 
 ## How to Use
