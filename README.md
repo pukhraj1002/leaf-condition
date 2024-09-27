@@ -1,25 +1,28 @@
 # Leaf Condition Classification
-A web application for classifying the condition of a leaf using Teachable Machine's pre-trained model. Users can upload images of leaves to predict their condition.
+A web application for classifying the condition of a leaf using Teachable Machine's self trained model. Users can upload images of leaves to predict their condition.
 
 ## Features
-Image Upload: Upload a leaf image for condition analysis.
-
-TensorFlow.js Model: Uses a pre-trained model from Teachable Machine.
-
-Responsive UI: Simple, user-friendly interface with webcam and image upload options.
-
-Prediction Display: Provides predictions with probabilities for each class.
+1. **Image Upload:** Upload a leaf image for condition analysis.
+2. **TensorFlow.js Model:** Uses a pre-trained model from Teachable Machine.
+3. **Responsive UI:** Simple, user-friendly interface with webcam and image upload options.
+4. **Prediction Display:** Provides predictions with probabilities for each class.
 
 ## How to Use
-### Clone the repository:
-git clone https://github.com/pukhraj1002/leaf-condition.git
+1. Clone the repository:
 
-### Navigate to the project directory:
-cd leaf-condition
+   ```git clone
+   https://github.com/pukhraj1002/leaf-condition.git
+   ```
 
-### Run the app (open index.html in a browser):
-For image uploads, click "Upload Image" and select an image.
-View the prediction result below.
+2. Navigate to the project directory:
+
+   ```terminal
+   cd leaf-condition
+   ```
+
+3. Run the app (open index.html in a browser):
+   For image uploads, click "Upload Image" and select an image.
+   View the prediction result below.
 
 ## Technologies Used
 HTML/CSS/JavaScript: For frontend interface and styling.
@@ -28,3 +31,8 @@ Teachable Machine: Pre-trained image classification model.
 
 ## Model
 This project uses a model hosted on Teachable Machine for classifying leaf conditions.
+
+**Link to the model** 
+```
+https://teachablemachine.withgoogle.com/models/vz589Memb/
+```
