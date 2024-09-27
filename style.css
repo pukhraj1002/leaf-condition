@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: url('/download.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 2.5rem;
+    background: linear-gradient(to right, #00ff00, #008000);
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#webcam-container {
+    margin: 20px 0;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: block;
+    width: 320px;
+    height: 240px;
+}
+
+#uploaded-image-container {
+    display: none;
+    width: 320px;
+    height: 240px;
+}
+
+#label-container {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    width: 80%;
+    max-width: 400px;
+}
+
+#label-container div {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+#label-container div:last-child {
+    border-bottom: none;
+}
+
+/* GitHub icon styling */
+.github-link {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.github-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s;
+}
+
+.github-icon:hover {
+    transform: scale(1.2);
+}
