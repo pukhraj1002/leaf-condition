@@ -9,7 +9,7 @@ Prediction Display: Provides predictions with probabilities for each class.
 
 ## How to Use
 ### Clone the repository:
-git clone https://github.com/your-username/leaf-condition.git
+git clone https://github.com/pukhraj1002/leaf-condition.git
 
 ### Navigate to the project directory:
 cd leaf-condition
