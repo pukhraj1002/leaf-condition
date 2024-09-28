@@ -37,6 +37,11 @@ This project uses a model hosted on Teachable Machine for classifying leaf condi
 https://teachablemachine.withgoogle.com/models/vz589Memb/
 ```
 **Link of dataset used to train the model** 
+**For Leaf**
 ```
 https://www.kaggle.com/datasets/rashikrahmanpritom/plant-disease-recognition-dataset
+```
+**For Other Objects**
+```
+https://universe.roboflow.com/yolo-f5bwg/finaldataset-0jujb/dataset/3
 ```
