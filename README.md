@@ -33,15 +33,13 @@ Teachable Machine: Pre-trained image classification model.
 This project uses a model hosted on Teachable Machine for classifying leaf conditions.
 
 **Link of the model** 
-```
-https://teachablemachine.withgoogle.com/models/6fGL2XjAU/
-```
+- [Teachable Machine Model](https://teachablemachine.withgoogle.com/models/6fGL2XjAU/)
+
+
 **Link of dataset used to train the model** 
 **For Leaf**
-```
-https://www.kaggle.com/datasets/rashikrahmanpritom/plant-disease-recognition-dataset
-```
+- [Leaf Dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/plant-disease-recognition-dataset)
+
 **For Other Objects**
-```
-https://universe.roboflow.com/yolo-f5bwg/finaldataset-0jujb/dataset/3
-```
+- [Invalid Input Dataset](https://universe.roboflow.com/yolo-f5bwg/finaldataset-0jujb/dataset/3)
+
