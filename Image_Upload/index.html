@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaf Image Model</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="../favicon.jpeg">
+</head>
+<body>
+    <h1>Leaf Condition Detection</h1>
+
+    <!-- Image Upload Button -->
+    <input type="file" id="imageInput" accept="image/*" onchange="handleImageUpload(event)">
+    <a href="../index.html" class="button-link">Use Webcam</a>
+    <!-- Canvas to display the uploaded image -->
+    <canvas id="uploaded-image-container" style="display:none;"></canvas>
+
+    <!-- Container to display prediction results -->
+    <div id="label-container"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
