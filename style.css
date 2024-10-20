@@ -83,3 +83,18 @@ button:hover {
     color: #333;
     font-weight: 600;
 }
+
+.github-link {
+    position:absolute;
+    bottom: 10px;
+}
+
+.github-icon {
+    width: 70px;
+    height: 70px;
+    transition: opacity 0.3s ease;
+}
+
+.github-link:hover .github-icon {
+    opacity: 0.7; /* Slightly transparent on hover */
+}
