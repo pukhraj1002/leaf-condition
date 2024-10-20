@@ -34,7 +34,7 @@ This project uses a model hosted on Teachable Machine for classifying leaf condi
 
 **Link of the model** 
 ```
-https://teachablemachine.withgoogle.com/models/vz589Memb/
+https://teachablemachine.withgoogle.com/models/6fGL2XjAU/
 ```
 **Link of dataset used to train the model** 
 **For Leaf**
